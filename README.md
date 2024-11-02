@@ -42,7 +42,7 @@
 ### Data Cleaning and Exploration
 ##### To begin, we imported our dependencies, and used pandas to load the url into a dataframe. We ensured that it succeeded by running a few assert statements. Next, we checked to see our column names, and if there were any null or missing numbers in the data. By running data.head() and data.tail(), we were able to see the first and last five rows of the dataframe. We confirmed that the first year was 1973, and the last (most recent year) was 2022. We also created a list of our column titles, and saw that the dataframe contained information about: wages by education level, wages by education level and sex, and wages by education level, sex, and race. Finally, we checked to see if there were any null or missing values in the data. 
 
-##### We established that there were no missing values in this dataset, and continued to the data exploration and analysis. The purpose of the data exploration was to generate summary statistics, including the mean, standard deviation, count, and IQR of some sample columns.
+##### We established that there were no missing values in this dataset, and continued to the data exploration and analysis. The purpose of the data exploration was to generate summary statistics, including the count, mean, standard deviation, mix, max, 25%, 50%, and 75% of some sample columns.
 
 | Statistic|    year    | less_than_hs  |  high_school | some_college | bachelors_degree | advanced_degree |
 |----------|------------|---------------|--------------|--------------|------------------|-----------------|
