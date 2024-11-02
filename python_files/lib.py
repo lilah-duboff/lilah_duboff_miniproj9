@@ -1,6 +1,5 @@
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import seaborn as sns
 
 """Takes a csv file, reads it, and creates graphs"""
@@ -117,4 +116,3 @@ def womens_bar_chart(wages_and_education_df, is_jupyter):
 
     plt.savefig("python_files/outputs/wages_women.png")
     plt.show()
-    
