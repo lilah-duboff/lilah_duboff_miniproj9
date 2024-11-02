@@ -43,6 +43,18 @@
 ##### To begin, we imported our dependencies, and used pandas to load the url into a dataframe. We ensured that it succeeded by running a few assert statements. Next, we checked to see our column names, and if there were any null or missing numbers in the data. By running data.head() and data.tail(), we were able to see the first and last five rows of the dataframe. We confirmed that the first year was 1973, and the last (most recent year) was 2022. We also created a list of our column titles, and saw that the dataframe contained information about: wages by education level, wages by education level and sex, and wages by education level, sex, and race. Finally, we checked to see if there were any null or missing values in the data. 
 
 ##### We established that there were no missing values in this dataset, and continued to the data exploration and analysis. The purpose of the data exploration was to generate summary statistics, including the mean, standard deviation, count, and IQR of some sample columns.
+
+| Statistic|    year    | less_than_hs  |  high_school | some_college | bachelors_degree | advanced_degree |
+|----------|------------|---------------|--------------|--------------|------------------|-----------------|
+|   count  |  50.00000  |   50.000000   |   50.000000  |   50.000000  |     50.000000    |    50.000000    |
+|   mean   |  1997.500  |   15.702600   |   20.876600  |   23.219200  |     34.768600    |    43.899000    |
+|   std    |  14.57738  |   1.125252    |   0.742743   |   0.776425   |      3.306645    |     5.305794    |
+|   min    |  1973.000  |   13.950000   |   19.620000  |   22.040000  |     30.040000    |    35.320000    |
+|   25%    |  1985.250  |   14.885000   |   20.392500  |   22.545000  |     31.875000    |    38.757500    |
+|   50%    |  1997.500  |   15.340000   |   20.855000  |   23.185000  |     34.205000    |    44.085000    |
+|   75%    |  2009.750  |   16.497500   |   21.480000  |   23.697500  |     37.122500    |    47.557500    |
+|   max    |  2022.000  |   18.060000   |   22.700000  |   25.440000  |     41.650000    |    53.740000    |
+
 ---
 ### Data Analysis
 ##### During the data analysis section, we created a number of plots in the cloud notebook, that provided information about the differences in hourly wages by year, by gender, by education level, and by race. The full analysis can be read in the Mini9_Data_Analysis notebook, but below I will show some sample plots and the results found. 
